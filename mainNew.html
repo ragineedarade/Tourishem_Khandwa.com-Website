@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0" />
+    <title>Khandwa.com</title>
+    <script src=" https://kit.fontawasome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <style>
+     
+    
+      * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+       background:  linear-gradient(135deg, #df7c7c, #8282cd,#a1e1a1);
+        
+      }
+      
+      nav {
+         background:  #1b2323;
+        height: 65px;
+        width: 100%;
+       
+        margin-bottom: 0;
+      
+      }
+      
+      label.logo {
+        color: white;
+        font-size: 25px;
+        line-height: 60px;
+        margin: 10px;
+      }
+      nav ul {
+        float: right;
+        margin-right: 30px;
+      }
+      nav ul li {
+        display: inline-block;
+        line-height: 90px;
+        margin: 0 5px;
+      }
+       
+      nav ul li a {
+        color: white;
+        font-size: 15px;
+      }
+      img {
+     margin-top: 0;
+        padding: 0;
+        height: 90%;
+        width: 100%;
+       
+  
+      }
+      .s {
+        height: 140px;
+        width: 180px;
+        float: right;
+        font-family: "Franklin Gothic Medium";
+        font-size: smaller;
+
+        border: 2px solid black;
+        margin-right: 30 px;
+      }
+
+      .first {
+        position: relative;
+        width: 70%;
+        left: 30%;
+        margin-top: 15px;
+        
+        border: 2px solid rgb(96, 91, 91);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        border-radius: 15px;
+        background:  linear-gradient(135deg, #874646, #8282cd,#bddebd);
+        
+       height: 170px;
+        
+      }
+
+      p {
+        font-family: serif;
+        color: black;
+        
+      }
+      .p {
+        height: 130px;
+        width: 170px;
+        float: left;
+        font-family: "Franklin Gothic Medium";
+        font-size: smaller;
+
+        border: 2px solid black;
+        margin-left: 20 px;
+        margin-right: 6px;
+      }
+      .second {
+        position: relative;
+        width: 70%;
+        right: 0.5%;
+        border: 2px solid rgb(96, 91, 91);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        background:  linear-gradient(135deg, #874646, #8282cd,#bddebd);
+        margin-top: 10px;
+        border-radius: 15px;
+        margin-left: 5px;
+        height: 160px;
+      }
+      .second p{
+        margin-left: 10px;
+      }
+      /* this is footer*/
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+      }
+  
+      .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+  
+      .footer-container > div {
+        padding: 20px;
+        flex: 1;
+      }
+  
+      .footer-container h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+  
+      .footer-container ul {
+        list-style: none;
+        padding: 0;
+      }
+  
+      .footer-container ul li {
+        margin-bottom: 8px;
+      }
+  
+      .footer-container a {
+        color: #aaa;
+        text-decoration: none;
+        padding: 3px;
+      }
+      
+  
+      .footer-container a:hover {
+        color: #fff;
+      }
+  
+      .footer-bottom {
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #555;
+      }
+        h3{
+        margin-top: 2px;
+        margin-left: 2px;
+         text-align: center;
+      }
+      .footer-links h3{
+        text-align: left;
+      }
+      .footer-social h3{
+        text-align: left;
+      }
+       a{
+      font-weight: bold;
+       }
+      @media(max-width:800px)
+      {
+        nav ul li a {
+          left: 5px;
+          padding: 0;
+          margin-left: 10px;
+          right: 50%;
+          width: 100%;
+          margin-bottom: 0;
+          margin-top: 15px;
+        }
+       label .logo{
+       font-size: 10px;
+       height: 20px;
+
+        }
+      }
+        @media(max-width: 800px)
+        {
+          .first,.second{
+            text-align: center;
+            align-items: center;
+            height: 30%;
+            width: 70%;
+            margin-top: 0;
+          }
+        }
+      
+      .main-bag{
+        background:linear-gradient(135deg, #df7c7c, #8282cd,#a1e1a1);
+        margin-top: 0;
+        
+
+      }
+       h3.as{
+        color: azure;
+      }
+       a .active{
+color: #fff;
+      }
+      main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+      }
+
+      section h3 {
+        font-size: 35px;
+        font-weight: 200;
+        letter-spacing: 3px;
+        text-shadow: 1px 1px 2px black;
+      }
+
+      section h1 {
+        margin: 30px 0 20px 0;
+        font-size: 55px;
+        font-weight: 700;
+        text-shadow: 2px 1px 5px black;
+        text-transform: uppercase;
+      }
+
+      section p {
+        font-size: 25px;
+        word-spacing: 2px;
+        margin-bottom: 25px;
+        text-shadow: 1px 1px 1px black;
+      }
+
+      section a {
+        padding: 12px 30px;
+        border-radius: 4px;
+        outline: none;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: all 0.5s ease;
+      }
+
+      section .btnone {
+        /*background: #00b894;*/
+        background: #fff;
+        color: #000;
+      }
+
+      .btnone:hover {
+        background: #00b894;
+        color: white;
+      }
+
+      section .btntwo {
+        background: #00b894;
+        color: white;
+      }
+
+      .btntwo:hover {
+        background: #fff;
+        color: #000;
+      }
+
+      .change_content:after {
+        content: "";
+        animation: changetext 10s infinite linear;
+        color: #00b894;
+      }
+
+      @keyframes changetext {
+        0% {
+          content: "Hanumantiya";
+        }
+        20% {
+          content: "Omkareshwar";
+        }
+        35% {
+          content: "Singaji";
+        }
+        60% {
+          content: "Dadagi";
+        }
+        80% {
+          content: "Kisor Smarak";
+        }
+        100% {
+          content: "Power Plant";
+        }
+      }
+      a{
+        color: black;
+        font-family: "Franklin Gothic Medium";
+        font-size: smaller;
+
+      
+      }
+       
+    </style>
+    <nav>
+     
+      <label class="logo">𝐊𝐡𝐚𝐧𝐝𝐰𝐚.𝐜𝐨𝐦</label>
+      <ul>
+        <li><a class="active" href="main.html">Home </a></li>
+        <li><a  class="active" href="About.html"> About </a></li>
+        <li><a class="active" href="images.html"> Images </a></li>
+        <li><a class="active" href=" Connect.html"> Connect</a></li>
+        <li><a class="active" href="sign.html"> Sign in</a></li>
+      </ul>
+    </nav>
+    <main>
+        <section>
+          <h3>Welcome To Khandwa</h3>
+          <h1>
+               And Visit Hear <span class="change_content"> </span>
+            <span style="margin-top: -10px"> | </span>
+          </h1>
+          <p>"Khandwa once is not enough"</p>
+          <a href="main.html" class="btnone">learn more</a>
+        </section>
+      </main>
+
+    <div class="main-bag">
+      <div class="first">
+        <a href="om.html">
+          <img class="s" src="images/om.jpg" width="50px" height=" 50px"   />
+        </a>
+  
+        <h3  class="as">Omkareshwar</h3>
+        <p><A href="om.html">  <br>
+          Is a Hindu temple dedicated to Shiva, located in Mandhata, in Khandwa
+          district of the Indian state of Madhya Pradesh. It is one of the 12
+          revered Jyotirlinga shrines of Shiva.[1] It is on an island called
+          Mandhata, near Khandwa city in the Narmada river at Khandwa district in
+          Madhya Pradesh, India; the shape of the island is said to be like the
+          Devanagari ॐ symbol<br><br></A>
+        </p>
+      </div>
+  
+      <br />
+  
+      <div class="second">
+        <a href="singaji.html">
+          <img class="p" src="images/1.jpg" width="50px" height=" 50px" />
+        </a>
+  
+        <h3 class="as">Singaji Maharaj.</h3>
+        <p>
+          <br /><a href="singaji.html"> 
+          Sant Singaji Maharaj was born on Wednesday on the day of Vaisakha Sudi
+          Navami at the place of Baba Bhimaji in village Khajuri. Saint Singaji
+          Samadhi of saint poet Singaji Saint Singaji was a famous saint of Nimar
+          in Madhya Pradesh, India. He is worshipped as an animal protector god.</a><br><br>
+        </p>
+      </div>
+   
+      <br />
+      <div class="first">
+        <a href="om.html">
+          <img class="s" src="images/dadaji.jpg" width="50px" height=" 50px" />
+        </a>
+  
+        <h3 class="as">Dada Darbar.</h3>
+        <p>
+         <br><a href="om.html"> is a Hindu Temple in Khandwa, Nimar region, Madhya Pradesh,
+           India. It is named after Dadaji Dhuniwale.
+  Dada Darbar is built at the memorial place of Dadaji Dhuniwale. There are
+   innumerable devotees of ‘Dadaji’ in India.
+   There are twenty-seven Dham's in India and abroad
+    in the name of Dadaji Dhuniwale.</a><br><br>
+        </p>
+      </div>
+      <br />
+      <div class="second">
+        <a href="tulja.html">
+          <img class="p" src="images/t3.jpeg" width="50px" height=" 50px" />
+        </a>
+  
+        <h3 class="as">Tulja_Bhawani</h3>
+        <p>
+          <br />
+            <a href="tulja.html"> 
+            Shree Tulaja Bhavani Temple is a 
+             dedicated to goddess Bhavani. It is located in Tuljapur
+             in Dharashiv district of Maharashtra, India,   but there is a also so beautyfull temple of 
+             tulja bhawani as you can see you will fill like positive eneargy hear</a>
+          <br><br>
+        </p>
+      </div>
+      <br>
+      <br>
+      <div class="first">
+        <a href="kishor.html">
+          <img class="s" src="images/k6.jpg" width="50px" height=" 50px" />
+        </a>
+  
+        <h3 class="as">Kishor Kumar Smarak.</h3>
+        <p>
+         <br> <a href="kishor.html"> this is a samadhi sathal who was made for mamorise 
+         kishor kumar  kishor kumar was a born at knandwa 
+         and he was beat singer of whole our india that why momentom was 
+         made for mamorise kishor kumar he was a not only singer but 
+         also he was a good actor director and script writer also<br><br></a>
+        </p>
+      </div>
+      <br />
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-links">
+          <h2>Quick Links</h2>
+          <ul><br>
+            <li><a href="main.html">Home</a></li>
+            
+            <li><a href=" Images.html">Images</a></li>
+            <li><a href="sign.html">Sign_in</a></li>
+            <li><a href="singaji.html">Singaji</a></li>
+            <li><a href="jayanti.html">Jayanti Mata</a></li>
+            <li><a href="power_plant.html">Power plant</a></li>
+            
+           
+             
+
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>_______</h3>
+          <ul>
+            <br>
+             
+            <li><a href=" om.html">Omkareshwar</a></li>
+           <li><a href="kishor.html">Kishor Smarak</a></li>
+            <li><a href="tulja.html">Tulja_Bhawani</a></li>
+            <li><a href=" dadaji.html">Dadaji Maharaj</a></li>
+            <li><a href="hanumantiya.html">Hanumantiya Tapu</a></li>
+            <li><a href="Indira-Sagar-Dam.webp">Narmada Sagar Dam</a></li>
+
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <ul><br>
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href=https://twitter.com/RagineeDarade>Twitter</a></li>
+            <li><a href="https://instagram.com/raginee_darade">Instagram</a></li>
+            <li><a href="https://linkedin.com/The Raginee Darade">LinkedIn</a></li>
+             
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <h4 class="coppy">  Copyright ©2024 Knandwa.com (P) Ltd.</h4>
+      </div>
+    </footer>
+
+  </body>
+</html>

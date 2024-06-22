@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #f69d9d, #8282cd, #a1e1a1);
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: rgb(224, 224, 221);
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        text-align: center;
+      }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      .form-group input[type="text"],
+      .form-group textarea {
+        width: calc(100% - 16px);
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+      }
+      .form-group textarea {
+        height: 100px;
+      }
+      .form-group button {
+        padding: 10px 15px;
+        background: linear-gradient(135deg, #df7c7c, #8282cd, #a1e1a1);
+        color: black;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        display: block;
+        width: auto;
+        margin: 0 auto;
+        font-size: 16px;
+      }
+      .form-group button:hover {
+        background-color: #f0f0f0;
+      }
+      .response {
+        text-align: center;
+        margin-top: 20px;
+      }
+      footer {
+        background-color: #5f5b5b;
+        color: white;
+        padding: 20px 0;
+      }
+  
+      .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+  
+      .footer-container > div {
+        padding: 20px;
+        flex: 1;
+      }
+  
+      .footer-container h3 {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+      }
+  
+      .footer-container ul {
+        list-style: none;
+        padding: 0;
+      }
+  
+      .footer-container ul li {
+        margin-bottom: 5px;
+      }
+  
+      .footer-container a {
+        color: #aaa;
+        text-decoration: none;
+        padding: 3px;
+      }
+      
+  
+      .footer-container a:hover {
+        color: #fff;
+      }
+  
+      .footer-bottom {
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #555;
+      }
+        h3{
+        margin-top: 2px;
+        margin-left: 2px;
+         text-align: center;
+      }
+      .footer-links h3{
+        text-align: left;
+      }
+      .footer-social h3{
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Contact Us</h2> <a href="main.html"></a>
+      <form action="https://formspree.io/ragineedarade@gmail.com" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            name="_replyto"
+            placeholder="Your email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your message"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <p class="response">
+        Thank you for your message! We will get back to you soon.
+      </p>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-links">
+          <h2>Quick Links</h2>
+          <ul><br>
+            <li><a href="main.html">Home</a></li>
+            
+            <li><a href=" Images.html">Images</a></li>
+            <li><a href="sign.html">Sign_in</a></li>
+            <li><a href="singaji.html">Singaji</a></li>
+            <li><a href="jayanti.html">Jayanti Mata</a></li>
+            <li><a href="power_plant.html">Power plant</a></li>
+            
+           
+             
+
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>_______</h3>
+          <ul>
+            <br>
+             
+            <li><a href=" om.html">Omkareshwar</a></li>
+           <li><a href="kishor.html">Kishor Smarak</a></li>
+            <li><a href="tulja.html">Tulja_Bhawani</a></li>
+            <li><a href=" dadaji.html">Dadaji Maharaj</a></li>
+            <li><a href="hanumantiya.html">Hanumantiya Tapu</a></li>
+            <li><a href="Indira-Sagar-Dam.webp">Narmada Sagar Dam</a></li>
+
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <ul><br>
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href=https://twitter.com/RagineeDarade>Twitter</a></li>
+            <li><a href="https://instagram.com/raginee_darade">Instagram</a></li>
+            <li><a href="https://linkedin.com/The Raginee Darade">LinkedIn</a></li>
+             
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <h4 class="coppy">  Copyright ©2024 Knandwa.com (P) Ltd.</h4>
+      </div>
+    </footer>
+    <script>
+      const express = require('express');
+const nodemailer = require('nodemailer');
+const bodyParser = require('body-parser');
+
+const app = express();
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+// Serve static files from the public directory
+app.use(express.static('public'));
+
+// POST route for form submission
+app.post('/send', (req, res) => {
+  const { name, email, message } = req.body;
+
+  // Create transporter with your email service credentials
+  const transporter = nodemailer.createTransport({
+    service: 'Gmail',
+    auth: {
+      user: 'your_email@gmail.com', // Your email
+      pass: 'your_password' // Your email password
+    }
+  });
+
+  // Email content
+  const mailOptions = {
+    from: 'your_email@gmail.com',
+    to: 'your_email@gmail.com', // Destination email
+    subject: 'New message from Contact Form',
+    html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`
+  };
+
+  // Send email
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.error(error);
+      res.status(500).send('Error sending email');
+    } else {
+      console.log('Email sent: ' + info.response);
+      res.send('Email sent successfully');
+    }
+  });
+});
+
+// Start server
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Server running on port ${port}`));
+
+    </script>
+  </body>
+</html>

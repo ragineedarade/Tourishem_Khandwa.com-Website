@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color: lightblue;
+   
+    font-family:   Georgia, 'Times New Roman', Times, serif;
+    box-sizing: 24px;
+    border-width: 80px;
+    box-shadow: whitesmoke;
+  }
+  .sign{
+  width:360px ;
+  height: 120px;
+  margin:auto ;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    
+  }
+  .login{
+    width:350px;
+    height:210px;
+    background-color:white;
+    margin:auto;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  h1{
+    text-align: center;
+    padding-top: 14px;
+  }
+  h4{
+  text-align: center;  
+  }
+  from{
+    width: 300px;
+    margin-right: 20px;
+    place-items: center;
+    margin:auto;
+    text-align:center;
+    padding: 23px;
+  }
+  from label{
+  display:flex ;
+    margin-top: 20px ;
+    font-size: 20px;
+    
+  
+    
+  }
+  from input{
+    width: 40%;
+    padding: 17px;
+    margin: 4px;
+    border:none;
+    border-color: 2px solid grey;
+    border-radius: 12px;
+    
+  }
+  input[type="button"]
+  {
+    width:220px;
+  
+    height: 55px;
+    margin-top:20px;
+    border: none;
+    background-color:green ;
+    color:white;
+    
+    font-size:25px ;
+    
+  }
+  
+  p{
+    text-align: center;
+    padding-top:20px;
+    font-size: 15px;
+  }
+  .p2{
+  
+    text-align: center;
+     font-size: 15px;
+    color:white;
+    margin-top: -10px;
+    
+  }
+  .p2{
+    color:blue;
+  }
+  

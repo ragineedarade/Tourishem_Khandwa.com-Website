@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    body {
+      background: linear-gradient(135deg, #df7c7c, #8282cd, #a1e1a1);
+    }
+    /* Basic styling for the login page */
+    .login-container {
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      justify-content: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .forgot-password,
+    .create-account {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .forgot-password a,
+    .create-account a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .forgot-password a:hover,
+    .create-account a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form action="login.php" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit">Login</button>
+      </form>
+
+      <div class="forgot-password">
+        <a href="forgot_password.php">Forgot Password?</a>
+      </div>
+
+      <div class="create-account">
+        Don't have an account? <a href="sign.html">Create one</a>
+      </div>
+    </div>
+  </body>
+</html>

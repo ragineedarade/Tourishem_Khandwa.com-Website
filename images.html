@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .main {
+      display: flex;
+      flex-direction: column;
+
+      text-align: center;
+      margin: 40px 20px 0 20px;
+    }
+
+    .main .heading {
+      width: 50%;
+      padding-bottom: 50px;
+    }
+    .main .heading h4 {
+      font-size: 2em;
+      font-weight: bold;
+      border-bottom: 3px solid #222;
+      padding-bottom: 10px;
+    }
+    .main .heading h4 span {
+      font-weight: 50;
+    }
+    .main .image {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: auto;
+       
+    }
+    .main .image .dream {
+      display: flex;
+      flex-direction: column;
+      width: 35.5%;
+      margin-right: 8px;
+      border-color: 2px solid black;
+    }
+    .main .image .dream img {
+      width: 100%;
+      padding-bottom: 15px;
+      border-radius: 5px;
+    
+    }
+     .val {
+      background: #222;
+      color: aliceblue;
+      padding: 15px 40px;
+      border-radius: 5px;
+      text-align: center;
+      align-items: center;
+      width: 140px;
+      margin-left: 40%;
+      margin-bottom: 10px;
+    }
+    .val a {
+      color: aliceblue;
+      text-align: center;
+      letter-spacing: 3px;
+      font-weight: bold;
+      font-size: 0.5em;
+      align-items: center;
+      text-align: center;
+    }
+    @media only screen and(max-width: 759px)
+    {
+      .main .image {
+        display: flex;
+        flex-direction: column;
+         
+      }
+      .main .image .dream {
+         
+        width: 100%;
+      }
+    }
+    img{
+      transition: transform 0.3s ease;
+    }
+    img :hover img
+    {
+      transform: scale(1.2);
+    }
+    nav {
+      
+     height: 65px;
+     width: 100%;
+    
+     margin-bottom: 0;
+   
+   }
+   
+   
+   nav ul {
+     float: right;
+     margin-right: 30px;
+   }
+   nav ul li {
+     display: inline-block;
+     line-height: 90px;
+     margin: 0 5px;
+   }
+    
+   nav ul li a {
+     color:black;
+     font-size: 20px;
+   }
+  </style>
+  <body>
+    <nav>
+     
+      
+      <ul>
+        <li><a class="active" href="mainNew.html">Home </a></li>
+        
+      </ul>
+    </nav>
+    <div class="main">
+      <div class="heading">
+        <h4>Photo <span>Gallery</span></h4>
+      </div>
+      <div class="image">
+        <div class="dream">
+          <img src="images/1.jpg" />
+          <img src="images/2.jpg" />
+          <img src="images/3.jpeg" />
+          <img src="images/4.jpeg" />
+          <img src="images/Indira-Sagar-Dam.webp"/> 
+          <img src="images/k1.webp" />
+          <img src="images/k2.jpg" />
+          <img src="images/k5.jpg" />
+          <img src="images/kb.jpg" />
+          <img src="images/kp.jpg" />
+          <img src="images/navchandi devi.webp" />
+          <img src="images/ss.webp" />
+          
+        </div>
+        <div class="dream">
+          <img src="images/tulja bhawni.webp" />
+          <img src="images/t1.jpg" />
+          <img src="images/t3.jpeg" />
+          <img src="images/sss.jpg" />
+          <img src="images/t2.jpg" />
+          <img src="images/k.jpg" />
+          <img src="images/k4.jpeg"/>
+          <img src="images/k6.jpg" />
+          <img src="images/na.jpeg" />
+          <img src="images/oj.jpg" />
+        </div>
+        <div class="dream">
+          <img src="images/ganta ghad.webp" />
+          <img src="images/gori kuung.webp" />
+          <img src="images/dadaji.jpg" />
+          <img src="images/dadagi.webp" />
+          <img src="images/asdf.webp" />
+          <img src="images/4.jpeg" />
+          <img src="images/h2.jpeg" />
+          <img src="images/H1.jpg" />
+          <img src="images/k3.jpg" />
+          <img src="images/khome.jpg" />
+          <img src="images/nagchun dam.webp" />
+          <img src="images/sin.jpg" />
+
+          
+        </div>
+      </div> <hr>
+    </div> <br><br><br><br><br><br>
+    
+      <div class="val">
+        
+        <a href="main.html">Home  </a>
+      </div>
+    </div>
+    <script>
+      function enlargeImage(img) {
+          img.style.transform = "scale(2)";
+      }
+  </script>
+  </body>
+</html>

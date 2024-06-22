@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+ 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
+  <!-- <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous"
+/> -->
+  <!-- Insert your Google Client ID below -->
+  <!-- <meta name="google-signin-client_id" content="546845376439-3vo5d28akbm652c1gs0rkivijvntk90d.apps.googleusercontent.com" />
+</head> -->
+<style>
+  /* Your CSS styles here */
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    background-color: #f0f2f5;
+    background:  linear-gradient(135deg, #df7c7c, #8282cd,#a1e1a1);
+  }
+
+  /* Center the container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* Style the form container */
+  .form-container {
+    background-color: #fff;
+    padding: 2em 3em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  /* Form heading */
+  .form-container h1 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    color: #333;
+  }
+
+  /* Input group styling */
+  .input-group {
+    margin-bottom: 1.5em;
+  }
+
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #555;
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+  }
+
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 0.75em;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Link styling */
+  .link {
+    text-align: center;
+    margin-top: 1em;
+    color: #555;
+  }
+
+  .link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .link a:hover {
+    color: #0056b3;
+  }
+</style>
+ 
+<body>
+  <nav class="navbar bg-body-primary">
+    <div class="containe">
+      <a class="navbar-brand" href="main.html">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/000/627/580/original/vector-home-icon-symbol-sign.jpg"
+          alt="Bootstrap"
+          width="30"
+          height="24"
+        />
+      </a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="form-container">
+      <h1>Sign In</h1>
+      <form action="/submit-signin" method="post">
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit">Sign In</button>
+        <p class="link">
+          Don't have an account? <a href="login.html">Login</a>
+        </p>
+      </form>
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </div>
+  </div>
+  
+  <!-- <script>
+    function onSignIn(googleUser) {
+      var profile = googleUser.getBasicProfile();
+      console.log("ID: " + profile.getId());
+      console.log("Name: " + profile.getName());
+      console.log("Image URL: " + profile.getImageUrl());
+      console.log("Email: " + profile.getEmail());
+
+      var id_token = googleUser.getAuthResponse().id_token;
+      console.log("ID Token: " + id_token);
+      // Send the ID token to your server with an XHR or fetch request
+      // Example:
+      // fetch('/tokensignin', {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json'
+      //   },
+      //   body: JSON.stringify({ id_token: id_token })
+      // }).then(function(response) {
+      //   return response.json();
+      // }).then(function(data) {
+      //   console.log(data);
+      // });
+    }
+  </script> -->
+</body>
+</html>
