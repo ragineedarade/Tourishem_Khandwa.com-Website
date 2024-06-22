@@ -3,7 +3,7 @@
 
 # Khandwa.com
 
-![Khandwa.com](images/oj.jpg)
+![Khandwa.com](https://1.bp.blogspot.com/-yHM4ORbP8bc/XWVw9gwFrpI/AAAAAAAAA4U/TxJa37uJ8QcS2KW6SCRBYSKHp4c_ly-JgCLcBGAs/w1600/Omkareshwar%2BJyotirlinga%2BTemple%2BMadhya%2BPradesh.jpg)
 
 This repository contains the HTML, CSS, and JavaScript code for Khandwa.com, a website showcasing various attractions and information related to Khandwa, Madhya Pradesh, India.
 
